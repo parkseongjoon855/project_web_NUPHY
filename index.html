@@ -4,66 +4,200 @@
     <meta charset="UTF-8">
     <meta name="Description" content="누피 누피코리아 NUPHY" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="main.css">
-    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/main.js"></script>
     <title>NUPHY KOREA</title>
 </head>
 <body>
     <header>
-        <h1><a href="#"><img src="./styles/nupuy/logo.png" alt=""></a></h1>
+        <h1><a href="#"><img src="./nupuy/logo.png" alt="누피스토어"></a></h1>
         <nav>
             <ul class="gnb">
-                <li><a>keyboards</a></li>
-                <ul class="lnb">
-                    <li><a>AIR 시리즈</a></li>
-                    <li><a>Halo 시리즈</a></li>
-                    <li><a>Gem 시리즈</a></li>
-                    <li><a>KICK 시리즈</a></li>
-                    <li><a>HE 시리즈</a></li>
-                </ul>
-                <li><a>keycaps</a></li>
-                <ul class="lnb">
-                    <li><a>AIR 시리즈</a></li>
-                    <li><a>Halo 시리즈</a></li>
-                    <li><a>Gem 시리즈</a></li>
-                    <li><a>KICK 시리즈</a></li>
-                    <li><a>Field HE 시리즈</a></li>
-                    <li><a>AIR HE 시리즈</a></li>
-                    <li><a>Halo HE 시리즈</a></li>
-                </ul>
-                <li><a>Switches</a></li>
+                <li><a href="#">keyboards</a>
                     <ul class="lnb">
-                        <li><a>Low Profile</a></li>
-                        <li><a>High Profile</a></li>
-                        <li><a>Low Profile(KICK 전용)</a></li>
-                        <li><a>Low Profile Mangnetic</a></li>
-                        <li><a>High Profile Mangnetic</a></li>
+                        <li><a href="#">AIR 시리즈</a></li>
+                        <li><a href="#">Halo 시리즈</a></li>
+                        <li><a href="#">Gem 시리즈</a></li>
+                        <li><a href="#">KICK 시리즈</a></li>
+                        <li><a href="#">HE 시리즈</a></li>
                     </ul>
-                <li><a>Accessories</a></li>
-                <ul class="lnb">
-                    <li><a>AIR 시리즈</a></li>
-                    <li><a>Halo 시리즈</a></li>
-                    <li><a>Gem 시리즈</a></li>
-                    <li><a>KICK 시리즈</a></li>
-                    <li><a>AIR HE 시리즈</a></li>
-                    <li><a>Halo HE 시리즈</a></li>
-                    <li><a>NUPHY 데스크매트</a></li>
-                </ul>
-                <li><a>고객지원</a></li>
-                <ul class="lnb">
-                    <li><a>공지사항</a></li>
-                    <li><a>제품 매뉴얼</a></li>
-                    <li><a>펌웨어 다운로드</a></li>
-                    <li><a>소프트웨어 자료실</a></li>
-                    <li><a>FAQ</a></li>
-                    <li><a>AS/교환/반품</a></li>
-                    <li><a>사업문의</a></li>
-                </ul>
+                </li>
+                <li><a href="#">keycaps</a>
+                    <ul class="lnb">
+                        <li><a href="#">AIR 시리즈</a></li>
+                        <li><a href="#">Halo 시리즈</a></li>
+                        <li><a href="#">Gem 시리즈</a></li>
+                        <li><a href="#">KICK 시리즈</a></li>
+                        <li><a href="#">Field HE 시리즈</a></li>
+                        <li><a href="#">AIR HE 시리즈</a></li>
+                        <li><a href="#">Halo HE 시리즈</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Switches</a>
+                    <ul class="lnb">
+                        <li><a href="#">Low Profile</a></li>
+                        <li><a href="#">High Profile</a></li>
+                        <li><a href="#">Low Profile(KICK 전용)</a></li>
+                        <li><a href="#">Low Profile Mangnetic</a></li>
+                        <li><a href="#">High Profile Mangnetic</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Accessories</a>
+                    <ul class="lnb">
+                        <li><a href="#">AIR 시리즈</a></li>
+                        <li><a href="#">Halo 시리즈</a></li>
+                        <li><a href="#">Gem 시리즈</a></li>
+                        <li><a href="#">KICK 시리즈</a></li>
+                        <li><a href="#">AIR HE 시리즈</a></li>
+                        <li><a href="#">Halo HE 시리즈</a></li>
+                        <li><a href="#">NUPHY 데스크매트</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">고객지원</a>
+                    <ul class="lnb">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">제품 매뉴얼</a></li>
+                        <li><a href="#">펌웨어 다운로드</a></li>
+                        <li><a href="#">소프트웨어 자료실</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">AS/교환/반품</a></li>
+                        <li><a href="#">사업문의</a></li>
+                    </ul>
+                </li>
             </ul>
-            <a href="#"><img src="./styles/nupuy/shopping_cart.png" alt="장바구니"></a>
-            <a href="#"><img src="./styles/nupuy/account_circle.png" alt="로그인"></a>
         </nav>
+        <div class="right_menu">
+            <a class="shopping_cart" href="#"><img src="./nupuy/shopping_cart.png" alt="장바구니"></a>
+            <a class="login" href="#"><img src="./nupuy/account_circle.png" alt="로그인"></a>
+        </div>
     </header>
+    <main>
+        <div class="banner">
+            <div class="banner_bg">
+                <div class="banner_text">
+                    <p>Magnetic switch </p>
+                    <p><span>Field75 HE</span></p>
+                    <a href="#"><p>자세히보기</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="halo_series">
+            <a href="#"><img src="./nupuy/keyboard11.png" alt="halo h2 시리즈">
+            
+            </a>  
+            </div>
+            <div class="gem80">
+                <a href="#"><img src="./nupuy/keyboard7.png" alt="Gem80 베어본">
+                <p>Gem80 베어본</p>
+                </a>
+            </div>
+            <div class="he_series">
+                <a href="#"><img src="./nupuy/keyboard8.png" alt="HE 시리즈">
+                <p>HE 시리즈</p>
+                </a> 
+            </div>
+            <div class="design_keycap">
+                <a href="#"><img src="./nupuy/keyboard10.png" alt="디자인 키캡">
+                <p>디자인 키캡</p>
+            </a> 
+            </div>
+            <div class="hot_swepp_swich">
+                <a href="#"><img src="./nupuy/keycap1.png" alt="핫스윕 스위치">
+                <p>핫스윕 스위치</p>
+                </a>
+            </div>
+            <div class="accessories">
+                <a href="#"><img src="./nupuy/acc1.png" alt="액세서리">
+                    <p>엑세서리</p>
+                </a>
+            </div>
+        </div>
+        <div class="banner_two">
+            <div class="banner_bg_two">
+                <div class="banner_text_two">
+                    <p>new<br>Launching</p>
+                    <p><span>Kick75</span></p>
+                    <a href="#"><p>자세히보기</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="live">
+            <h2>NUPHY 라이브</h2>
+            <div class="live_text">
+            <a href="#"><img src="./nupuy/video.png" alt="2024 크리스마스 선물 대잔치 연말 
+                라이브 ">
+                <p>2024 크리스마스 선물 대잔치 연말 라이브</p>
+            </a>
+            <a href="#"><img src="./nupuy/video2.png" alt="2024년 누피 송년 특별 할인&사
+                은품 대잔치 라이브">
+                <p>2024년 누피 송년 특별할인&사은품 대잔치 라이브</p>
+            </a>
+            <a href="#"><img src="./nupuy/video3.png" alt="[블루밍 데이즈] 누피 가을맞이 할
+                인&사은품대잔치
+                ">
+                <p>[블루밍 데이즈]누피 가을맞이 할인&사은품대잔치</p>
+            </a>
+            <a href="#"><img src="./nupuy/video6.png" alt="[NUPHY] 누피와 알록달록 RGB
+                단풍놀이">
+                <p>[NUPHY] 누피와 알록달록 RGB
+                    단풍놀이</p>
+            </a>
+            <a href="#"><img src="./nupuy/video5.png" alt="[블루밍 데이즈] Hello Hello 기계
+                식키보드 라이브">
+                <p>[블루밍 데이즈] Hello Hello 기계
+                    식키보드 라이브</p>                                
+            </a>
+            </div>
+            <a class="readmore" href="#"><p>전체목록보기</p></a>
+        </div>
+        <div class="wrap_three">
+            <h3>comming soon!</h3>
+            <div class="wrap_content">
+                <div class="left">
+                    <a href="#"><img src="./nupuy/keyboard1.png" alt=""></a>
+                    <a href="#"><img src="./nupuy/keyboard5.png" alt=""></a>
+                </div>
+                <div class="right">
+                    <a href="#"><img src="./nupuy/keyboard3.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap_four">
+            <a href="#"></a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_wrap">
+            <ul class="footer_content">
+                <li><p>brands</p>
+                    <ul class="brand ftmenu">
+                        <li><a href="#">브랜드소개</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">제품 메뉴얼</a></li>
+                        <li><a href="#">펌웨어 다운</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">AS/교환/반품 문의</a></li>
+                    </ul>
+                </li>
+                <li><p>Event</p>
+                    <ul class="event ftmenu">
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </li>
+                <li><p>Content Us</p>
+                    <ul class="content ftmenu">
+                        <li><a href="#">cs@nineone.kr</a></li>
+                        <li><a href="#">070-8624-5013</a></li>
+                        <li><a href="#">평일 13:30~18:30</a></li>
+                        <li><a href="#">점심 시간:12:00~13:20</a></li>
+                        <li><a href="#">토.일요일 및 공휴일 휴무</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="logo" href="#"><img src="./nupuy/logo3.png" alt="누피스토어"></a>
+        </div>
+    </footer>
 </body>
 </html>
