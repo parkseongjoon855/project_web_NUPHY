@@ -4,6 +4,7 @@ header {
     justify-content:space-between;
     padding:33px 50px;
     height:99px;
+    
 }
 header h1 a img {
     width:120px;
@@ -15,7 +16,7 @@ header nav {
 header nav .gnb {
     display:flex;
     padding-top:15px;
-    
+
 }
 header nav .gnb li a {
     color:#fff;
@@ -47,7 +48,7 @@ main .banner .banner_bg {
     vertical-align:center;
 }
 main .banner .banner_text {
-    
+    padding-top:250px;
 }
 main .banner .banner_bg .banner_text >p {
     padding-top:25px;
@@ -77,15 +78,16 @@ main .banner .banner_bg .banner_text a p {
 main .product {
     display:flex;
     justify-content:space-between;
+    padding-bottom:65px;
 }
 main .product .halo_series {}
 main .product .halo_series a img {
-    
+    width:282px;
 }
 main .product .halo_series  p {}
 main .product .gem80 {}
 main .product .gem80 a img {
-    width:282px;
+    
 }
 main .product .gem80  p {}
 main .product .he_series {}
@@ -121,6 +123,7 @@ main .banner_two .banner_bg_two {
 main .banner_two .banner_bg_two .banner_text_two >p {
     font-size:1.563rem;
     font-weight:600;
+    padding-bottom:15px;
     
 }
 main .banner_two .banner_bg_two p span {
@@ -135,11 +138,13 @@ main .banner_two .banner_bg_two a p {
     font-weight:400;
     font-size:0.875rem;
     line-height:24px;
-    color:#fff;
+    color:#000;
+    background-color:#fff;
 }
 main .live {
     text-align:center;
     padding-top:101px;
+    
 }
 main .live .live_text {
     display:flex;
@@ -148,16 +153,23 @@ main .live .live_text {
     width:1440px;
     margin:0 auto;
     
+    
 }
 main .live h2 {
     font-size:1rem;
     font-weight:600;
     text-align:left;
+    padding-left:235px;
+    
 }
-main .live .live_text a {}
+main .live .live_text a {
+    
+}
 main .live .live_text a img {}
-main .live .live_text a img p {
+main .live .live_text a  p {
     font-size:0.875rem;
+    line-height:150%;
+    font-weight:400px;
     
 }
 main .live .readmore p{
@@ -167,29 +179,30 @@ main .live .readmore p{
     display:inline-block;
     background-color:#fff;
     line-height:43px;
-    margin:0 auto;
-    padding-top:7px;
+    margin-top:20px;
 }
 main .wrap_three {
     padding-top:102px;
-    
 }
 main .wrap_three h3 {
     font-size:1.563rem;
     font-weight:600;
     padding-bottom:20px;
-    
+    width:1754px;
+    margin:0 auto;
 }
 main .wrap_three .wrap_content {
     display:flex;
-    
+    margin:0 auto;
+    width:1754px;
+    padding-bottom:225px;
 }
 main .wrap_three .wrap_content .left {
     
 }
 main .wrap_three .wrap_content .left a {}
 main .wrap_three .wrap_content .left a:nth-child(1) img {
-    
+
 }
 main .wrap_three .wrap_content .left a:nth-child(2) img {
     padding-top:56px;
@@ -197,7 +210,7 @@ main .wrap_three .wrap_content .left a:nth-child(2) img {
 main .wrap_three .wrap_content .right {}
 main .wrap_three .wrap_content .right a {}
 main .wrap_three .wrap_content .right a img {
-    padding-bottom:225px;
+    
 }
 main .wrap_four {background-image:url(../nupuy/keyboard21.png); height:750px;}
 main .wrap_four a {display:block; width:100%; height:100%;}
@@ -243,5 +256,7 @@ footer .footer_wrap .footer_content li .ftmenu li a {
     color:#fff;
     line-height:28px;
     font-size:0.875rem;
-    padding-top:28px;
+    padding-top:57px;
+    margin:0 auto;
+    
 }
