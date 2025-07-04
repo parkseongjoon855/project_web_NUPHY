@@ -21,36 +21,35 @@ header nav .gnb {
     
     
 }
-
-header nav .gnb li a {
-    color:#fff;
+header nav .gnb .lnb li a {
+    color:#000;
+    
 }
 header nav .gnb >li a {
-    color:#000;
+    color:#fff;
     margin:0 17px;
-    padding-top:16px;
+    
     line-height:25px;
     font-size:0.875rem;
     font-weight:400;
 }
 
-header nav .gnb :hover {
+header nav .gnb li a:hover {
     color:#3CB371;
-    
-}
-header nav .gnb li a :hover {
-
+    background-color:#000;
     
 }
 header nav .gnb li .lnb {
     background-color:#fff;
     position:absolute;
     z-index:1;
-    height:230px;
-    padding-top:15px;
+    height:200px;
+    
+    display:none;
     
 }
-header nav .gnb li .lnb :hover {
+header nav .gnb  >li:hover .lnb{
+    display:block;
     
 }
 header nav .gnb li> .lnb {
