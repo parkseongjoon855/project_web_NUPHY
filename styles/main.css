@@ -1,3 +1,90 @@
+body>* {min-width:1920px;}
+body {}
+body #login_wrap {
+    width:370px;
+    height:626px;
+    background-color:#fff;
+    position:fixed;
+    top:50px; left:50%; transform:translateX(-50%);
+    min-width:370px;
+    text-align:left;
+    padding:0 30px;
+    border:1px solid #000;
+}
+body #login_wrap h2 {
+    font-size:2rem;
+    font-weight:600;
+    text-align:center;
+    padding:35px 0;
+}
+body #login_wrap p {
+    padding:15px 0;
+}
+body #login_wrap  #naver_btn  {
+    width: 322px;
+    height: 43px;
+    border: 1px solid #d9d9d9;
+    background-color: #2DB400;
+    margin:10px 0;
+    background-image:url(../nupuy/naver.jpg);background-size:16px; background-repeat:no-repeat;
+    background-position:16px 50%;
+}
+body #login_wrap #naver_btn a {
+    color:#fff;
+    font-weight:600;
+    font-size:0.875rem;
+}
+body #login_wrap  #kakao_btn   {
+    width:322px;
+    height:43px;
+    border:1px solid #d9d9d9;
+    background-color:#f9e000;
+    margin:10px 0;
+    background-image:url(../nupuy/kakao.jpg);
+    background-size:16px;
+    background-repeat:no-repeat;
+    background-position:16px 50%;
+}
+body #login_wrap #kakao_btn a {
+    color:#3c1e1e;
+    font-weight:600;
+    font-size:0.875rem;
+}
+body #login_wrap .login {
+    padding-top:20px;
+}
+body #login_wrap .login #email {
+    border:1px solid #d9d9d9;
+    width:322px;
+    height:43px;
+    
+}
+body #login_wrap .login #password {
+    border:1px solid #d9d9d9;
+    width:322px;
+    height:43px;
+    margin-bottom:30px;
+}
+body #login_wrap .login a .login_re {
+    padding-left:1.9375em;
+    margin-bottom:20px;
+}
+body #login_wrap .login_re #chk {
+
+}
+body #login_wrap .login_btn {
+    border:1px solid #000;
+    width:322px;
+    height:43px;
+    margin:15px 0;
+}
+body #login_wrap .shipping {
+    border:1px solid #000;
+    width:322px;
+    line-height:42px;
+    padding:0;
+    background-color:#8393a7;
+}
 header {
     background-color:#000;
     display:flex;
@@ -15,23 +102,26 @@ header nav {
 }
 header nav .gnb {
     display:flex;
-    padding-top:15px;
+
     position:relative;
     white-space:nowrap;
-    
-    
+
 }
-header nav .gnb .lnb li a {
+header nav .gnb .lnb li >a {
     color:#000;
-    
+    display:block;
+    text-align:center;
+    width:170px;
+    padding:9px 0;
+    height:100%;
 }
-header nav .gnb >li a {
+header nav .gnb >li >a {
     color:#fff;
-    margin:0 17px;
-    
+    padding: 0 15px;
     line-height:25px;
-    font-size:0.875rem;
+    font-size:0.8rem;
     font-weight:400;
+    text-align:center;
 }
 
 header nav .gnb li a:hover {
@@ -44,9 +134,10 @@ header nav .gnb li .lnb {
     position:absolute;
     z-index:1;
     height:200px;
-    
+    border-radius:5px;
     display:none;
-    
+    font-size:0.7rem;
+    font-weight:400;
 }
 header nav .gnb  >li:hover .lnb{
     display:block;
@@ -69,12 +160,14 @@ main .banner {
     
 }
 main .banner .banner_bg {
-    height:892px;
-    background-image:url(../nupuy/keyboard4.png);
+    height:100vh;
+    background-image:url(../nupuy/keyboard4.png) ;
+    background-size:cover;
     background-repeat:no-repeat;
     padding-top:83px;
     text-align:center;
     vertical-align:center;
+    margin-bottom:50px;
 }
 main .banner .banner_text {
     padding-top:250px;
