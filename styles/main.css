@@ -10,6 +10,14 @@ body #login_wrap {
     text-align:left;
     padding:0 30px;
     border:1px solid #000;
+    z-index:13;
+    display:none;
+}
+body #login_wrap #x_btn {
+    padding-left:300px;
+    font-size:14px;
+    position:absolute;
+    top:30px;
 }
 body #login_wrap h2 {
     font-size:2rem;
@@ -19,6 +27,7 @@ body #login_wrap h2 {
 }
 body #login_wrap p {
     padding:15px 0;
+    font-size:12px;
 }
 body #login_wrap  #naver_btn  {
     width: 322px;
@@ -52,25 +61,28 @@ body #login_wrap #kakao_btn a {
 }
 body #login_wrap .login {
     padding-top:20px;
+    
 }
 body #login_wrap .login #email {
     border:1px solid #d9d9d9;
     width:322px;
     height:43px;
-    
+    padding-left:20px;
 }
 body #login_wrap .login #password {
     border:1px solid #d9d9d9;
     width:322px;
     height:43px;
     margin-bottom:30px;
+    padding-left:20px;
 }
 body #login_wrap .login a .login_re {
-    padding-left:1.9375em;
-    margin-bottom:20px;
+    
+    margin-bottom:15px;
+    
 }
-body #login_wrap .login_re #chk {
-
+body #login_wrap .login #chk .login_re a {
+    
 }
 body #login_wrap .login_btn {
     border:1px solid #000;
@@ -84,7 +96,29 @@ body #login_wrap .shipping {
     line-height:42px;
     padding:0;
     background-color:#8393a7;
+    text-align:center;
+    
 }
+body #login_wrap .shipping a {
+    color:#fff;
+}
+body #login_wrap .login .id_pass {
+    display:flex;
+    justify-content:center;
+    margin:10px 0;
+}
+body #login_wrap .login .id_pass .join  {
+    
+    font-size:12px;
+    
+    
+}   
+body #login_wrap .login .id_pass .id {
+    font-size:12px;
+    
+    
+}
+body #login_wrap .login {}
 header {
     background-color:#000;
     display:flex;

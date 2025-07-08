@@ -6,25 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/main.css">
-    <script src="./scripts/main.js"></script>
+    <script src="./scripts/main.js" defer></script>
     <title>NUPHY KOREA</title>
 </head>
 <body>
     <!-- 로그인 열리는 영역 -->
     <div id="login_wrap">
         <h2>로그인</h2>
+        <button type="button" id="x_btn"><a href="#">x</button></a>
         <button type="button" id="naver_btn"><a href="#">네이버로 시작하기</button></a>
         <button type="button" id="kakao_btn"><a href="#">카카오로 시작하기</button></a>
-        <hr><p>또는</p>
+        
         <div class="login">
         <input type="email" id="email" placeholder="이메일">
         <input type="password" id="password" placeholder="비밀번호">
-        <a href="#"><span class="login_re">로그인상태유지</span><input type="checkbox" id="chk"></a> 
+        <label><input type="checkbox" id="chk"> <span class="login_re">로그인상태유지</span></label>
         <button type="button" class="login_btn">로그인</button>
-        <a href="#">회원가입</a>
-        <a href="#">아이디.비밀번호체크</a>
-        <hr><p>또는</p>
-    </div>
+        <div class="id_pass">
+        <a class="join" href="#">회원가입</a>
+        <a class="id" href="#">아이디.비밀번호체크</a>
+        </div>
+        
+        
+        </div>
         <div class="shipping">
             <button type="button" class="Shipping_btn"><a href="#">비회원 배송정보 확인</a></button>
         </div>
@@ -89,7 +93,7 @@
         </nav>
         <div class="right_menu">
             <a class="shopping_cart" href="#"><img src="./nupuy/shopping_cart.png" alt="장바구니"></a>
-            <a class="login" href="#"><img src="./nupuy/account_circle.png" alt="로그인"></a>
+            <a class="login" id="my" href="#"><img src="./nupuy/account_circle.png" alt="로그인"></a>
         </div>
     </header>
     <main>
