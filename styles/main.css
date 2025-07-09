@@ -125,7 +125,8 @@ header {
     justify-content:space-between;
     padding:33px 50px;
     height:99px;
-    
+    position:fixed;top:0;
+    z-index:10 ;
 }
 header h1 a img {
     width:120px;
